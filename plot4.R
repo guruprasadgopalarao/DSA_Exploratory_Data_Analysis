@@ -35,7 +35,7 @@ with(hpc, {
   lines(datetime, hpc[, 9], col = col[3])
   legend("topright", legend = names(hpc[7:9]), col = col, lty = c(1, 1, 1), 
          bty = "n")
-  # plot(2,1)
+  # plot(2,2)
   plot(datetime, Global_reactive_power, type = "l")
 })
 dev.off()
